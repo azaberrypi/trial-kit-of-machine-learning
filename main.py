@@ -116,6 +116,5 @@ except KeyboardInterrupt:
         channel=channel_id,
         text="プログラムをシャットダウンします。",
     )
-    #del model
     del tensor_test.model
     exit()
