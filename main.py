@@ -5,7 +5,7 @@ import time
 import requests
 import codecs
 import os
-import tensor_test
+import process_vgg16
 from googletrans import Translator
 
 client = WebClient(token=os.environ['Slack_Bot_token'])     # replace your own OAuth Token
@@ -72,7 +72,7 @@ try:
                     )
 
                     # processing of machine learning
-                    prediction_result = tensor_test.vgg(image_pass, tensor_test.model)      # <class 'list'>
+                    prediction_result = process_vgg16.vgg(image_pass, process_vgg16.model)      # <class 'list'>
                     #print(prediction_result[0][1])     # debug
 
                     # send image to channel (not used this time)
@@ -116,5 +116,5 @@ except KeyboardInterrupt:
         channel=channel_id,
         text="プログラムをシャットダウンします。",
     )
-    del tensor_test.model
+    del process_vgg16.model
     exit()
