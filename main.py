@@ -18,7 +18,7 @@ rotation_time = 10.0
 # the notification of program booted to Slack
 client.chat_postMessage(
     channel=channel_id,
-    text="画像を受け付けを開始しました。",
+    text="画像の受け付けを開始しました。",
 )
 
 try:
