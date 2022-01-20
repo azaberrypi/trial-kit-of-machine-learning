@@ -38,6 +38,7 @@ try:
                 channel=channel_id,
                 text="プログラムをシャットダウンします。",
             )
+            del process_vgg16.model
             exit()
 
 
