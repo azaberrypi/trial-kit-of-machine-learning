@@ -36,7 +36,6 @@ def vgg(pass_of_image, model):
     # calculate probability
     probability = model.predict(img_input)
 
-    # 予測値のshapeを確認
     # confirm shape of probability
     # print('shape of probs:', probs.shape)
 
