@@ -246,7 +246,7 @@ THE SOFTWARE.
 ## [ILSVRC-2014 model (VGG team) with 16 weight layers](https://www.robots.ox.ac.uk/~vgg/research/very_deep/)
 
 - © Visual Geometry Group Department of Engineering Science, University of Oxford 2014
-- Licensed under the Attribution 4.0 International (CC BY 4.0) (https://creativecommons.org/licenses/by/4.0/)
+- Licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 - https://www.robots.ox.ac.uk/~vgg/research/very_deep/
 - https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md
 - Modification: No
